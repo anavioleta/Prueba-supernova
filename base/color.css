@@ -1,0 +1,284 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --color-brand-100: #f5f5f5;
+  --color-brand-200: #e6e6e6;
+  --color-brand-300: #d9d9d9;
+  --color-brand-400: #b3b3b3;
+  --color-brand-500: #757575;
+  --color-brand-600: #444444;
+  --color-brand-700: #383838;
+  --color-brand-800: #2c2c2c;
+  --color-brand-900: #1e1e1e;
+  --color-brand-1000: #111111;
+  --color-black-100: #0c0c0d0d;
+  --color-black-200: #0c0c0d1a;
+  --color-black-300: #0c0c0d33;
+  --color-black-400: #0c0c0d66;
+  --color-black-500: #0c0c0db2;
+  --color-black-600: #0c0c0dcc;
+  --color-black-700: #0c0c0dd9;
+  --color-black-800: #0c0c0de5;
+  --color-black-900: #0c0c0df2;
+  --color-black-1000: #0c0c0d;
+  --color-white-100: #ffffff0d;
+  --color-green-100: #ebffee;
+  --color-green-200: #cff7d3;
+  --color-green-300: #aff4c6;
+  --color-green-400: #85e0a3;
+  --color-green-500: #14ae5c;
+  --color-green-600: #009951;
+  --color-green-700: #008043;
+  --color-green-800: #02542d;
+  --color-green-900: #024023;
+  --color-green-1000: #062d1b;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e6e6e6;
+  --color-gray-300: #d9d9d9;
+  --color-gray-400: #b3b3b3;
+  --color-gray-500: #757575;
+  --color-gray-600: #444444;
+  --color-gray-700: #383838;
+  --color-gray-800: #2c2c2c;
+  --color-gray-900: #1e1e1e;
+  --color-gray-1000: #111111;
+  --color-white-200: #ffffff1a;
+  --color-white-300: #ffffff33;
+  --color-white-400: #ffffff66;
+  --color-white-500: #ffffffb2;
+  --color-white-600: #ffffffcc;
+  --color-white-700: #ffffffd9;
+  --color-white-800: #ffffffe5;
+  --color-white-900: #fffffff2;
+  --color-white-1000: #ffffff;
+  --color-pink-100: #fcf1fd;
+  --color-pink-200: #fae1fa;
+  --color-pink-300: #f5c0ef;
+  --color-pink-400: #f19edc;
+  --color-pink-500: #ea3fb8;
+  --color-pink-600: #d732a8;
+  --color-pink-700: #ba2a92;
+  --color-pink-800: #8a226f;
+  --color-pink-900: #57184a;
+  --color-pink-1000: #3f1536;
+  --color-red-100: #fee9e7;
+  --color-red-200: #fdd3d0;
+  --color-red-300: #fcb3ad;
+  --color-red-400: #f4776a;
+  --color-red-500: #ec221f;
+  --color-red-600: #c00f0c;
+  --color-red-700: #900b09;
+  --color-red-800: #690807;
+  --color-red-900: #4d0b0a;
+  --color-red-1000: #300603;
+  --color-slate-100: #f3f3f3;
+  --color-slate-200: #e3e3e3;
+  --color-slate-300: #cdcdcd;
+  --color-slate-400: #b2b2b2;
+  --color-slate-500: #949494;
+  --color-slate-600: #767676;
+  --color-slate-700: #5a5a5a;
+  --color-slate-800: #434343;
+  --color-slate-900: #303030;
+  --color-slate-1000: #242424;
+  --color-yellow-100: #fffbeb;
+  --color-yellow-200: #fff1c2;
+  --color-yellow-300: #ffe8a3;
+  --color-yellow-400: #e8b931;
+  --color-yellow-500: #e5a000;
+  --color-yellow-600: #bf6a02;
+  --color-yellow-700: #975102;
+  --color-yellow-800: #682d03;
+  --color-yellow-900: #522504;
+  --color-yellow-1000: #401b01;
+  --color-blue-100: #f1f6fd;
+  --color-blue-200: #e1ebfa;
+  --color-blue-300: #c0d4f5;
+  --color-blue-400: #9ebef1;
+  --color-blue-500: #3f81ea;
+  --color-blue-600: #3271d7;
+  --color-blue-700: #2a61ba;
+  --color-blue-800: #224a8a;
+  --color-blue-900: #183057;
+  --color-blue-1000: #15253f;
+  /* Bg/Utilities/Scrim */
+  --color-background-utilities-scrim: #ffffffcc;
+  /* Bg/Utilities/Blanket */
+  --color-background-utilities-blanket: #000000b2;
+  /* Bg/Utilities/Overlay */
+  --color-background-utilities-overlay: #00000080;
+  --color-border-utilities-swatch: #0000003d;
+  /* Bg/Default/Default */
+  --color-background-default: var(--color-white-1000);
+  /* Bg/Neutral/Default */
+  --color-background-neutral-default: var(--color-slate-700);
+  /* Bg/Neutral/Hover */
+  --color-background-neutral-hover: var(--color-slate-800);
+  /* Bg/Neutral/Secondary */
+  --color-background-neutral-secondary: var(--color-slate-300);
+  /* Bg/Neutral/Secondary Hover */
+  --color-background-neutral-secondary-hover: var(--color-slate-400);
+  /* Bg/Neutral/Tertiary */
+  --color-background-neutral-tertiary: var(--color-slate-200);
+  /* Bg/Neutral/Tertiary Hover */
+  --color-background-neutral-tertiary-hover: var(--color-slate-300);
+  /* Bg/Default/Default Hover */
+  --color-background-default-hover: var(--color-gray-100);
+  /* Bg/Default/Secondary */
+  --color-background-default-secondary: var(--color-gray-100);
+  /* Bg/Default/Secondary Hover */
+  --color-background-default-secondary-hover: var(--color-gray-200);
+  /* Bg/Default/Tertiary */
+  --color-background-default-tertiary: var(--color-gray-300);
+  /* Bg/Default/Tertiary Hover */
+  --color-background-default-tertiary-hover: var(--color-gray-400);
+  /* Bg/Brand/Default */
+  --color-background-brand-default: var(--color-brand-800);
+  /* Bg/Brand/Hover */
+  --color-background-brand-hover: var(--color-brand-900);
+  /* Bg/Brand/Secondary */
+  --color-background-brand-secondary: var(--color-brand-200);
+  /* Bg/Brand/Secondary Hover */
+  --color-background-brand-secondary-hover: var(--color-brand-300);
+  /* Bg/Brand/Tertiary */
+  --color-background-brand-tertiary: var(--color-brand-100);
+  /* Bg/Brand/Tertiary Hover */
+  --color-background-brand-tertiary-hover: var(--color-brand-200);
+  /* Bg/Positive/Default */
+  --color-background-positive-default: var(--color-green-500);
+  /* Bg/Positive/Hover */
+  --color-background-positive-hover: var(--color-green-600);
+  /* Bg/Positive/Secondary */
+  --color-background-positive-secondary: var(--color-green-200);
+  /* Bg/Positive/Secondary Hover */
+  --color-background-positive-secondary-hover: var(--color-green-300);
+  /* Bg/Positive/Tertiary */
+  --color-background-positive-tertiary: var(--color-green-100);
+  /* Bg/Positive/Tertiary Hover */
+  --color-background-positive-tertiary-hover: var(--color-green-200);
+  /* Bg/Warning/Default */
+  --color-background-warning-default: var(--color-yellow-400);
+  /* Bg/Warning/Hover */
+  --color-background-warning-hover: var(--color-yellow-500);
+  /* Bg/Warning/Secondary */
+  --color-background-warning-secondary: var(--color-yellow-200);
+  /* Bg/Warning/Secondary Hover */
+  --color-background-warning-secondary-hover: var(--color-yellow-300);
+  /* Bg/Warning/Tertiary */
+  --color-background-warning-tertiary: var(--color-yellow-100);
+  /* Bg/Warning/Tertiary Hover */
+  --color-background-warning-tertiary-hover: var(--color-yellow-200);
+  /* Bg/Danger/Default */
+  --color-background-danger-default: var(--color-red-500);
+  /* Bg/Danger/Hover */
+  --color-background-danger-hover: var(--color-red-600);
+  /* Bg/Danger/Secondary */
+  --color-background-danger-secondary: var(--color-red-200);
+  /* Bg/Danger/Secondary Hover */
+  --color-background-danger-secondary-hover: var(--color-red-300);
+  /* Bg/Danger/Tertiary */
+  --color-background-danger-tertiary: var(--color-red-100);
+  /* Bg/Danger/Tertiary Hover */
+  --color-background-danger-tertiary-hover: var(--color-red-200);
+  /* Bg/Disabled/Default */
+  --color-background-disabled-default: var(--color-gray-300);
+  /* Bg/Utilities/Measurement */
+  --color-background-utilities-measurement: var(--color-pink-200);
+  --color-text-default: var(--color-gray-900);
+  --color-text-default-secondary: var(--color-gray-500);
+  --color-text-default-tertiary: var(--color-gray-400);
+  --color-text-neutral-default: var(--color-slate-900);
+  --color-text-neutral-secondary: var(--color-slate-700);
+  --color-text-neutral-tertiary: var(--color-slate-600);
+  --color-text-neutral-on-neutral: var(--color-slate-100);
+  --color-text-neutral-on-neutral-secondary: var(--color-slate-900);
+  --color-text-neutral-on-neutral-tertiary: var(--color-slate-800);
+  --color-text-brand-default: var(--color-brand-800);
+  --color-text-brand-secondary: var(--color-brand-600);
+  --color-text-brand-tertiary: var(--color-brand-500);
+  --color-text-brand-on-brand: var(--color-brand-100);
+  --color-text-brand-on-brand-secondary: var(--color-brand-900);
+  --color-text-brand-on-brand-tertiary: var(--color-brand-800);
+  --color-text-positive-default: var(--color-green-800);
+  --color-text-positive-secondary: var(--color-green-600);
+  --color-text-positive-tertiary: var(--color-green-500);
+  --color-text-positive-on-positive: var(--color-green-100);
+  --color-text-positive-on-positive-secondary: var(--color-green-800);
+  --color-text-positive-on-positive-tertiary: var(--color-green-800);
+  --color-text-warning-default: var(--color-yellow-900);
+  --color-text-warning-secondary: var(--color-yellow-700);
+  --color-text-warning-tertiary: var(--color-yellow-600);
+  --color-text-warning-on-warning: var(--color-yellow-1000);
+  --color-text-warning-on-warning-secondary: var(--color-yellow-800);
+  --color-text-warning-on-warning-tertiary: var(--color-yellow-900);
+  --color-text-danger-default: var(--color-red-700);
+  --color-text-danger-secondary: var(--color-red-600);
+  --color-text-danger-tertiary: var(--color-red-500);
+  --color-text-danger-on-danger: var(--color-red-100);
+  --color-text-danger-on-danger-secondary: var(--color-red-700);
+  --color-text-danger-on-danger-tertiary: var(--color-red-700);
+  --color-text-disabled-default: var(--color-gray-400);
+  --color-text-utilities-text-on-overlay: var(--color-black-1000);
+  --color-text-utilities-text-on-measurement: var(--color-pink-800);
+  --color-text-disabled-on-disabled: var(--color-gray-400);
+  --color-border-default: var(--color-gray-300);
+  --color-border-default-secondary: var(--color-gray-500);
+  --color-border-default-tertiary: var(--color-gray-700);
+  --color-border-neutral-default: var(--color-slate-900);
+  --color-border-neutral-secondary: var(--color-slate-600);
+  --color-border-neutral-tertiary: var(--color-slate-400);
+  --color-border-brand-default: var(--color-brand-800);
+  --color-border-brand-secondary: var(--color-brand-600);
+  --color-border-brand-tertiary: var(--color-brand-500);
+  --color-border-positive-default: var(--color-green-800);
+  --color-border-positive-secondary: var(--color-green-600);
+  --color-border-positive-tertiary: var(--color-green-500);
+  --color-border-warning-default: var(--color-yellow-900);
+  --color-border-warning-secondary: var(--color-yellow-700);
+  --color-border-warning-tertiary: var(--color-yellow-600);
+  --color-border-danger-default: var(--color-red-700);
+  --color-border-danger-secondary: var(--color-red-600);
+  --color-border-danger-tertiary: var(--color-red-500);
+  --color-border-disabled-default: var(--color-gray-400);
+  --color-border-utilities-measurement: var(--color-pink-400);
+  --color-icon-default: var(--color-gray-900);
+  --color-icon-neutral-default: var(--color-slate-900);
+  --color-icon-neutral-secondary: var(--color-slate-700);
+  --color-icon-neutral-tertiary: var(--color-slate-600);
+  --color-icon-neutral-on-neutral: var(--color-slate-100);
+  --color-icon-neutral-on-neutral-secondary: var(--color-slate-900);
+  --color-icon-neutral-on-neutral-tertiary: var(--color-slate-800);
+  --color-icon-default-secondary: var(--color-gray-500);
+  --color-icon-default-tertiary: var(--color-gray-400);
+  --color-icon-brand-default: var(--color-brand-800);
+  --color-icon-brand-secondary: var(--color-brand-600);
+  --color-icon-brand-tertiary: var(--color-brand-500);
+  --color-icon-brand-on-brand: var(--color-brand-100);
+  --color-icon-brand-on-brand-secondary: var(--color-brand-900);
+  --color-icon-brand-on-brand-tertiary: var(--color-brand-800);
+  --color-icon-positive-default: var(--color-green-800);
+  --color-icon-positive-secondary: var(--color-green-600);
+  --color-icon-positive-tertiary: var(--color-green-500);
+  --color-icon-positive-on-positive: var(--color-green-100);
+  --color-icon-positive-on-positive-secondary: var(--color-green-800);
+  --color-icon-positive-on-positive-tertiary: var(--color-green-900);
+  --color-icon-warning-default: var(--color-yellow-900);
+  --color-icon-warning-secondary: var(--color-yellow-700);
+  --color-icon-warning-tertiary: var(--color-yellow-600);
+  --color-icon-warning-on-warning: var(--color-yellow-1000);
+  --color-icon-warning-on-warning-secondary: var(--color-yellow-800);
+  --color-icon-warning-on-warning-tertiary: var(--color-yellow-900);
+  --color-icon-danger-default: var(--color-red-700);
+  --color-icon-danger-secondary: var(--color-red-600);
+  --color-icon-danger-tertiary: var(--color-red-500);
+  --color-icon-danger-on-danger: var(--color-red-100);
+  --color-icon-danger-on-danger-secondary: var(--color-red-700);
+  --color-icon-danger-on-danger-tertiary: var(--color-red-700);
+  --color-icon-disabled-default: var(--color-gray-400);
+  --color-icon-utilities-icon: var(--color-pink-600);
+  --color-icon-utilities-icon-on-measurement: var(--color-pink-800);
+  --color-icon-disabled-on-disabled: var(--color-gray-400);
+}
